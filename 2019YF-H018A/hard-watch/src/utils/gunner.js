@@ -17,7 +17,7 @@ export default {
     whipping_top: 0, //  陀螺 0   1
     bottom_left_power: 0, //  电源 0   1
     interior_gun_calibration: 0, //  车内校炮 0   1
-    bottom_left_auto_hadnle: 0, //  手动还是自动 0   1
+    bottom_left_auto_handle: 0, //  手动还是自动 0   1
     right_bottom_handle_auto: 0, // 手动还是自动 0 1
     hydraulic_intensifier: 0 , // 水力增强 0 - 90
     gaofei_installation_preparation: 0, // 高飞装定准备 -2  -1  0  1  2  3  4 
@@ -34,5 +34,5 @@ export default {
     handle_top_left: 0, // 摇杆左上 0 1
     handle_top_right: 0, // 摇杆右上 0 1
     handle_turn_hor: 0, // 横向方向上的转动
-    handle_turn_ver: 0. // 垂直方向上的转动
+    handle_turn_ver: 0 // 垂直方向上的转动
 }

@@ -7,7 +7,7 @@
       <!-- 车内校炮 -->
       <img :src="gunner_data.interior_gun_calibration === 0 ? gunner_missile_down: gunner_missile_up"  class="black_light " style="top: 42.8%;left: 2.6%;">
       <!-- 手动还是自动 -->
-      <img :src="gunner_data.bottom_left_auto_hadnle === 0 ? gunner_missile_down: gunner_missile_up"  class="black_light " style="top: 42.8%;left: 14.4%;">
+      <img :src="gunner_data.bottom_left_auto_handle === 0 ? gunner_missile_down: gunner_missile_up"  class="black_light " style="top: 42.8%;left: 14.4%;">
     </div>
 </template>
 

@@ -9,15 +9,15 @@
       <img :src="waterHandleUp" alt="" style="position: absolute;width: 10%;left: 87%;top: 56%;">
       <img :src="waterHandleDown" alt="" style="position: absolute;width: 10%;left: 87%;top: 62%;">
 
-      <!-- 油门 -->
-      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 77%;height: 1.5%;"
-      :style="throttle">
       <!-- 离合 -->
-      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 86.2%;height: 1.5%;"
+      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 77%;height: 1.5%;"
       :style="Clutch">
       <!-- 刹车 -->
-      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 94.4%;height: 1.5%;"
+      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 86.2%;height: 1.5%;"
       :style="brake">
+      <!-- 油门 -->
+      <img src="@/assets/images/driver/进度条指针.png" style="position: absolute;left: 94.4%;height: 1.5%;"
+      :style="throttle">
     </div>
 </template>
 

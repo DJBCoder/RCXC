@@ -2,9 +2,9 @@ export default {
   gear_position: 3, // 档位 0 D1 1 D2  2 D3  3 H 4 5 6 N  7 R
   water_handle_up: 0, // 0 ,1 2
   water_handle_down: 0, // 0  1   2
-  throttle: 0, // 油门 0 -100,
-  Clutch: 0, // 离合 0 -100,
-  brake: 0, // 刹车 0 -100,
+  throttle: 10, // 油门 0 -100,
+  Clutch: 20, // 离合 0 -100,
+  brake: 30, // 刹车 0 -100,
   air_conditioner: 0 ,//空调开关 0 1
   night_vision_sight: 0 ,//夜视仪 0 1
   charging_discharging: 0 ,//充放气 0 1
